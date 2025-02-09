@@ -1,0 +1,11 @@
+const ProcessingData = require('../utilis/FormattingTerematelData');
+
+const SendingData = (req, res) => {
+
+    let {data} = req.data;
+
+    let processedData = ProcessingData(data);
+
+    //Here, somone of you hvae to create anamoly detection function, and take processedData as parameter
+
+};
